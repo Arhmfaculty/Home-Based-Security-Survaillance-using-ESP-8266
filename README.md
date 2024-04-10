@@ -3,8 +3,8 @@ The security surveillance system is designed to detect intruders using an Ultras
  
 a. INITIAL SETUP AND CONFIGURATION
 Before starting the project, there are a few setup steps that need to be completed:
-1.     Connect to Wi-Fi: The ESP8266 microcontroller needs to be connected to the farm's Wi-Fi network for it to transmit information. This can be done by inputting the Wi-Fi SSID and password into the software used to control the system.
-2.     Input Farmer's Email Addresses: The system needs to know where to send the email notifications when an intrusion is detected. We will input the email addresses of where the intrusion email needs to be sent to.
+1. Connect to Wi-Fi: The ESP8266 microcontroller needs to be connected to the farm's Wi-Fi network for it to transmit information. This can be done by inputting the Wi-Fi SSID and password into the software used to control the system.
+2. Input Farmer's Email Addresses: The system needs to know where to send the email notifications when an intrusion is detected. We will input the email addresses of where the intrusion email needs to be sent to.
 3. Enrol the farmers' fingerprints: Before using the system, the fingerprints of the farmers need to be recorded using the Adafruit fingerprint sensor. This step needs to be done from the database we will provide the farmer. This step needs to be done anytime a new farmer is added. Only the fingerprints of the farmers that have been previously recorded will be recognized. This prevents intruders from accessing the buzzer and turning it off.  To prevent technical glitches, the enrollment will have to be done by the team to ensure efficient operation of the system.
 Remember, these steps need to be completed before the system is powered on and begins operating. If the Wi-Fi network or the farmer's email addresses change, we will need to update this information in the system.
  
